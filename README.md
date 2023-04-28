@@ -24,8 +24,11 @@ File konfigurasi di
 ./nginx -t 
  
 START NGINX
+
 cd /usr/local/nginx/sbin
+
 ./nginx &
 
 FINISH
+
 ./nginx -s stop
