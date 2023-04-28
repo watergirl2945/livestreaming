@@ -20,4 +20,12 @@ Konfigurasi
 
 File konfigurasi di
 
- /usr/local/nginx/conf/nginx.conf
+/usr/local/nginx/conf/nginx.conf
+./nginx -t 
+ 
+START NGINX
+cd /usr/local/nginx/sbin
+./nginx &
+
+FINISH
+./nginx -s stop
